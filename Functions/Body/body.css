@@ -1,0 +1,69 @@
+.menu_section
+{
+  height: 70px;
+float: right;
+/*margin-top: -60px;*/
+position: relative;
+width: calc(100% - 17%);
+display: flex;
+justify-content: space-around;
+align-content: space-around;
+
+}
+
+.menu_but
+{
+  height:70px;
+  width: 70px;
+  font-size: 40px;
+  cursor: pointer;
+  color:rgba(23,23,23,.8);
+}
+.menu_but:hover{
+  color:rgba(15,101,141,.8);
+
+}
+.menu_but_act
+{
+  color:rgba(15,101,141,.9);
+}
+.menu-insta
+{
+  font-size: 37px;
+}
+@media(max-width:1050px){
+  .menu_section
+  {
+    margin-top: 0px;
+    /*background-color: red;*/
+    width: 100%
+  }
+}
+@media(max-width:480px){
+  .menu_section
+  {
+      height: 50px
+  }
+  .menu_but
+  {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+  }
+  .menu-insta
+  {
+    font-size: 27px;
+  }
+}
+
+
+
+
+.containers
+{
+  position: relative;
+  margin-top: 100px;
+  height: auto;
+  width: 100vw;
+  /*background-color: blue;*/
+}

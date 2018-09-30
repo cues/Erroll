@@ -1,0 +1,18 @@
+.work_container
+{
+  height: 100px;
+  width: 100vw;
+  /*background-color: red;*/
+  position: absolute;
+  top: 0;
+  left:100vw;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.work_container_left{
+  left: 0;
+}
